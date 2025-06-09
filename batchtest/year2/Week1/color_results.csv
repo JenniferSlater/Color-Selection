@@ -1,0 +1,18 @@
+"Image#","Colour name","Hexadecimal","Frequency of colour","Percent of image"
+"Image 1","black","#261c16",55941,43
+"Image 1","blue","#515047",20315,15.6
+"Image 1","light green","#9bac62",17183,13.2
+"Image 1","green","#2c5125",13208,10.2
+"Image 1","gold","#a77320",8035,6.2
+"Image 1","red","#ad4d42",6300,4.8
+"Image 1","pink","#dd967e",3538,2.7
+"Image 1","yellow","#e0c36b",3290,2.5
+"Image 1","white","#e4e6da",2190,1.7
+"Image 2",NA,"#ad4d42ff",66181,31
+"Image 2",NA,"#a77320ff",65854,30.9
+"Image 2",NA,"#2c5125ff",65358,30.7
+"Image 2",NA,"#e4e6daff",13972,6.6
+"Image 2",NA,"#515047ff",666,0.3
+"Image 2",NA,"#9bac62ff",557,0.3
+"Image 2",NA,"#261c16ff",310,0.1
+"Image 2",NA,"#dd967eff",302,0.1
