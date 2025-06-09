@@ -20,7 +20,7 @@ cols_vec <- setNames(
   c("#261c16", "#515047", "#2c5125","#9bac62", "#ad4d42","#e0c36b","#dd967e","#a77320","#e4e6da"),
   c("black",    "blue",    "green","light green","red", "yellow","pink" ,"gold","white")
 )
-print(cols_vec) #It can also print N/A for color type and just gives hexedecimal number
+print(cols_vec) #This isn't 100% nessesary since it could print N/A for color type and just gives hexedecimal number
 
 # Here is the complicated part they go in and make it all work
 
