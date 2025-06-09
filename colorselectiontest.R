@@ -66,7 +66,7 @@ for (i in seq_along(test_images)) {
 #Function to count the colours (adapted from Jeroen Ooms) 
 count_colors <- function(image) {
 data <- image_data(image) %>%
-apply(2:3, paste, collapse = "") %>% 
+apply(2:3, paste, collapse = "") %>% # basically compresses rbg into a string (r=00, b=00, g==01)-->000001 :)
 as.vector %>% table() %>%  as.data.frame() %>% 
 setNames(c("hex", "freq"))
 data$hex <- paste("#", data$hex, sep="")
@@ -86,7 +86,7 @@ test_col_freq <- test_mapped %>% #starts test_mapped dataframe
   mutate(percent = 100*round((freq/sum(freq)), 3),
          image = paste("Image",i))%>%
 
-  select(
+  select( #all the sections for the table
     `Image#` = image,
     `Colour name` = name,
      Hexadecimal=hex,
